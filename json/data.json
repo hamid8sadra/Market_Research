@@ -1,0 +1,48 @@
+data/
+│
+├── reference/
+│   ├── data_catalog.json
+│   │
+│   ├── market/
+│   │   ├── xauusd.json
+│   │   ├── eurusd.json
+│   │   └── usdx.json
+│   │
+│   ├── macro/
+│   ├── rates/
+│   ├── inflation/
+│   ├── positioning/
+│   └── gold/
+│
+├── assets/
+│   │
+│   └── xauusd/
+│       ├── dataset.json
+│       ├── question_template.json
+│       │
+│       └── questions/
+│           ├── xauusd-1d-market-trend.json
+│           ├── xauusd-1w-market-trend.json
+│           ├── xauusd-1w-real-rate-state.json
+│           └── xauusd-1w-usd-state.json
+│
+├── evidence/
+│
+└── analysis/
+data/
+  reference/
+    _data_catalog.json
+    market_xauusd.json
+    market_eurusd.json
+    market_usdx.json
+    macro_something1.json
+    macro_something2.json
+    macro_something2.json
+    ...
+  questions/
+    xauusd/
+      question_answer_prompt_list_template.json
+      question_string_query_1_archive.json
+      question_string_query_2_archive.json
+      question_string_query_3_archive.json
+      ...
