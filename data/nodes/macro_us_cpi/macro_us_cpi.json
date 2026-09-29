@@ -1,0 +1,20 @@
+{
+  "node_id": "macro_us_cpi",
+  "version": null,
+  "time_series": {
+    "frequency": "monthly",
+    "ordering": "latest_first"
+  },
+  "source": {
+    "provider": "FRED",
+    "series_id": "CPIAUCSL"
+  },
+  "current": null,
+  "history": [],
+  "update_policy": {
+    "minimum_check_hours": 12,
+    "last_source_check": null,
+    "last_successful_update": null
+  },
+  "execution_log": []
+}
